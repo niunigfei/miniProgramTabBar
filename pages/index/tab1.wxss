@@ -1,0 +1,10 @@
+/* pages/index/tab1.wxss */
+view{
+  background-color: aqua;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  opacity: 0.4;
+}

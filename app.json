@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/tab1",
+    "pages/index/tab2",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "selectedIconPath": "imgs/tabIcon/index_green.png",
+        "iconPath": "imgs/tabIcon/index_gray.png",
+        "pagePath": "pages/index/tab1",
+        "text": "tab1"
+      },
+      {
+        "selectedIconPath": "imgs/tabIcon/discount_green.png",
+        "iconPath": "imgs/tabIcon/discount_gray.png",
+        "pagePath": "pages/index/tab2",
+        "text": "优惠"
+      },
+      {
+        "selectedIconPath": "imgs/tabIcon/my_green.png",
+        "iconPath": "imgs/tabIcon/my_gray.png",
+        "pagePath": "pages/index/index",
+        "text": "我的"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
